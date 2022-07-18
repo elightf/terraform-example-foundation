@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "UPDATE_ME"
+    bucket = "bkt-tfstate"
     prefix = "terraform/bootstrap/state"
   }
 }
